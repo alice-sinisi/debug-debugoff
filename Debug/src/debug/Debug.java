@@ -5,6 +5,7 @@
  */
 package debug;
 
+import debugoff.Debugoff;
 import static java.lang.System.out;
  /**
  *
@@ -17,6 +18,7 @@ public class Debug {
      */
     public static void main(String[] args) {
        out.println(Debug.debug());
+       Debugoff.debug();
     }
     
      public static String debug(){
@@ -26,3 +28,4 @@ public class Debug {
         }
     
 }
+
