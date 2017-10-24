@@ -13,15 +13,7 @@ import static java.lang.System.out;
  */
 public class Debug {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-       out.println(Debug.debug());
-       Debugoff.debug();
-    }
-    
-     public static String debug(){
+        public static String debug(){
         String pippo;
         pippo="Errore";
         return pippo;
