@@ -16,15 +16,12 @@ public abstract class Main {
          /**
      * @param args the command line arguments
      */
-    public static void main(String[] args){};
+    public static void main(String[] args){
+        Debug d1= new Debug();
+        out.println(d1.debug());
+        Debugoff d2= new Debugoff();
+        out.println(d2.debug());
+    };
 
-    /**
-     *
-     * @return
-     */
-    public abstract String stampaDebug();
-
-
-    
-
+ 
 }
