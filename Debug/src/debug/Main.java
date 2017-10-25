@@ -5,7 +5,7 @@
  */
 package debug;
 
-import debugoff.Debugoff;
+//import debugoff.Debugoff;
 import static java.lang.System.out;
 
 /**
@@ -19,8 +19,11 @@ public abstract class Main {
     public static void main(String[] args){
         Debug d1= new Debug();
         out.println(d1.debug());
-        Debugoff d2= new Debugoff();
+//        Debugoff d2= new Debugoff();
+        Debug d2= new Debug();
         out.println(d2.debug());
+//        out.println(Debug.debug());
+//        out.println(Debug.debug());
     };
 
  
