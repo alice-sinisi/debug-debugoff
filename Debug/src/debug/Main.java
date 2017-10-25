@@ -20,7 +20,7 @@ public abstract class Main {
         Debug d1= new Debug();
         out.println(d1.debug());
 //        Debugoff d2= new Debugoff();
-        Debug d2= new Debug();
+        debugoff.Debug d2= new debugoff.Debug();
         out.println(d2.debug());
 //        out.println(Debug.debug());
 //        out.println(Debug.debug());
