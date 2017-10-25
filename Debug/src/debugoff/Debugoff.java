@@ -10,7 +10,7 @@ import static java.lang.System.out;
  *
  * @author alice
  */
-public class Debugoff{
+public class Debug{
  
      public String debug(){
         String pippo;
