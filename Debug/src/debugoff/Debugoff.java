@@ -12,10 +12,13 @@ import static java.lang.System.out;
  */
 public class Debugoff{
  
-     public static String debug(){
+     public String debug(){
         String pippo;
         pippo="Errore";
         return pippo;
         }
     
+      public String stampaDebug(){
+         return "Esiste un "+debug();
+     }
 }
