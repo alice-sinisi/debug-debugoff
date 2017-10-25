@@ -11,10 +11,6 @@ public class Debug{
         pippo="Errore";
         return pippo;
         }
-     
-     public String stampaDebug(){
-         return "Esiste un "+debug();
-     }
     
 }
 
