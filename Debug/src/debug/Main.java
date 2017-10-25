@@ -3,20 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package database;
+package debug;
+
+import debugoff.Debugoff;
+import static java.lang.System.out;
 
 /**
  *
  * @author alice
  */
-public abstract class Compenso  {
+public abstract class Main {
+         /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args){};
+
+    /**
+     *
+     * @return
+     */
+    public abstract String stampaDebug();
+
+
     
-    
-    
-    public abstract double compenso();
-    
-    public abstract String descrizione();
-    
-    
-    
+
 }
